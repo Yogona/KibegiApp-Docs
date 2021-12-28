@@ -7,7 +7,18 @@ The whole skeleton of how the system is structured for storage, authentication a
 **How to use  API features**
 All the uris developed have auth and authorization scopes except some of them, to be discussed further below.
 
-Authentication
-**Register user**
+**RESPONSE FORMAT, JSON:**
+-status
+-message
+-body
+
+**Authentication**
+-**Get roles**
+METHOD:get
+URI:address/api/roles
+
+-**Register user**
 METHOD:post
-URI: address/api/register
+URI:address/api/register
+
+-**User login**
