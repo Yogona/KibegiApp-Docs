@@ -21,18 +21,32 @@ URI:address/api/roles
 METHOD:post
 URI:address/api/register
 BODY SAMPLE:{
-    "username": "Yogona",
+    "username": "John",
     "password": "1234",
-    "f_name": "Yona",
-    "m_name": "Godwin",
-    "l_name": "Yona",
+    "f_name": "John",
+    "m_name": "",
+    "l_name": "Doe",
     "gender": "M",
-    "nationality": "Tanzanian",
-    "email": "yonagodwin@gmail.com",
-    "phone": "0712500282",
-    "address": "Dodoma",
+    "nationality": "Ukranian",
+    "email": "contact@tansoften.com",
+    "phone": "0713500280",
+    "address": "Arusha",
     "role_id": "1",
-    "device_name": "HUAWEI"
+    "device_name": "SAMSUNG"
+}
+
+-**Logout user**
+METHOD:post
+URI:address/api/signout
+BODY SAMPLE:{
+    "user_id":"2"
 }
 
 -**User login**
+METHOD:post
+URI:address/api/signin
+BODY SAMPLE:{
+    "username": "Yogona",
+    "password": "1234",
+    "device_name": "HUAWEI"
+}
