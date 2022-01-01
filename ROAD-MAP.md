@@ -1,9 +1,10 @@
-**Authentication**
--> Registration <-
+**Authentication**(Done)
+-Registration(with email verification)
 -Login
+-Logout
 
 **User Profile**
--Viewing
+-Viewing <-
 -Updation
 -Deleting
 -Disabling
