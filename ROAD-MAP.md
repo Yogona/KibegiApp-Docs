@@ -4,7 +4,7 @@
 -Logout
 
 **User Profile**
--Viewing <-
+-Viewing <-(Authorization)
 -Updation
 -Deleting
 -Disabling
