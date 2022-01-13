@@ -7,12 +7,16 @@ The whole skeleton of how the system is structured for storage, authentication a
 **How to use  API features**
 All the URIs developed have auth and authorization scopes except some of them, to be discussed further below.
 
+--To send requests you must include user token in the header as bearer token--
+
 **RESPONSE FORMAT, JSON:**
 -status->Status code.
 -message->Status message.
 -body->Body of the feedback.
 
 **Authentication**
+No authentication and authorization checks.
+
 -**Get roles**
 METHOD:get
 URI:address/api/roles
@@ -50,3 +54,8 @@ BODY SAMPLE:{
     "password": "1234",
     "device_name": "HUAWEI"
 }
+
+**User**
+-**View User**
+METHOD: get
+URI: address/api/profile/{id?}
