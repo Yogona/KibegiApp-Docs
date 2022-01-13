@@ -5,8 +5,8 @@
 
 **User Profile**
 -Viewing 
--Updation <-
--Deleting
+-Updating 
+-Deleting <-
 -Disabling
 
 **Payment Profile**
