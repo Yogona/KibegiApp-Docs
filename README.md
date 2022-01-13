@@ -59,3 +59,18 @@ BODY SAMPLE:{
 -**View User**
 METHOD: get
 URI: address/api/profile/{id?}
+
+-**Update User**
+METHOD: put
+URI: address/api/profile/user/update
+BODY SAMPLE: {
+    "id": 1,
+    "f_name": "Yona",
+    "m_name": "Godwin",
+    "l_name": "Yona",
+    "gender": "M",
+    "nationality": "Tanzanian",
+    "email": "yonagodwin@gmail.com",
+    "phone": "0712500282",
+    "address": "Dodoma"
+}
