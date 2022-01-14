@@ -3,14 +3,14 @@
 -Login
 -Logout
 
-**User Profile**
+**User Profile**(Done)
 -Viewing 
 -Updating 
--Deleting <-
+-Deleting 
 -Disabling
 
 **Payment Profile**
--Adding
+-Adding <-
 -Viewing 
 -Removing
 -Updating
