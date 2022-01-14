@@ -74,3 +74,20 @@ BODY SAMPLE: {
     "phone": "0712500282",
     "address": "Dodoma"
 }
+
+-**Delete User**
+METHOD: delete
+URI: address/api/profile/user/delete
+BODY SAMPLE: {
+    "user_id": "1"
+}
+
+-**Disable User**
+METHOD: put 
+URI: address/api/profile/user/disable
+BODY SAMPLE: {
+    "user_id": "1"
+}
+
+**Payment Profile**
+-**Add Profile**
