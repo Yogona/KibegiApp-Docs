@@ -91,3 +91,12 @@ BODY SAMPLE: {
 
 **Payment Profile**
 -**Add Profile**
+METHOD: post
+URI: address/api/profile/payment/add
+BODY SAMPLE: {
+    "payment_name": "Paypal",
+    "client_names": "Yona Godwin",
+    "address_one": "Dodoma",
+    "address_two": "",
+    "acc_id": "yonagodwin@gmail.com"
+}
