@@ -100,3 +100,7 @@ BODY SAMPLE: {
     "address_two": "",
     "acc_id": "yonagodwin@gmail.com"
 }
+
+-**View Profiles**
+METHOD: get
+URI: address/api/profile/payment/view
