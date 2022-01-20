@@ -58,7 +58,7 @@ BODY SAMPLE:{
 **User**
 -**View User**
 METHOD: get
-URI: address/api/profile/{id?}
+URI: address/api/profile/{id}
 
 -**Update User**
 METHOD: put
@@ -91,7 +91,7 @@ BODY SAMPLE: {
 
 **Payment Profile**
 -**Add Profile**
-METHOD: post
+METHOD: POST
 URI: address/api/profile/payment/add
 BODY SAMPLE: {
     "payment_name": "Paypal",
@@ -102,5 +102,9 @@ BODY SAMPLE: {
 }
 
 -**View Profiles**
-METHOD: get
+METHOD: GET
 URI: address/api/profile/payment/view
+
+-**View Profile**
+METHOD: GET
+URI: address/api/profile/payment/view/{id}
