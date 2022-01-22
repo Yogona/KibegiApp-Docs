@@ -55,12 +55,12 @@ BODY SAMPLE:{
 **User**
 -**View User**
 METHOD: GET
-URI: address/api/profile/{id?}
+URI: address/api/profile/{id}
 EXAMPLE: localhost:8000/api/profile/1
 
 -**Update User**
 METHOD: PUT
-URI: address/api/profile/user/update/{user_id?}
+URI: address/api/profile/user/update/{user_id}
 EXAMPLE: localhost:8000/api/profile/user/update/1
 BODY SAMPLE: {
     "f_name": "Yona",
@@ -75,12 +75,12 @@ BODY SAMPLE: {
 
 -**Delete User**
 METHOD: DELETE
-URI: address/api/profile/user/delete/{user_id?}
+URI: address/api/profile/user/delete/{user_id}
 EXAMPLE: localhost:8000/api/profile/user/delete/1
 
 -**Disable User**
 METHOD: PATCH 
-URI: address/api/profile/user/disable/{user_id?}
+URI: address/api/profile/user/disable/{user_id}
 EXAMPLE: localhost:8000/api/profile/user/disable/1
 
 **Payment Profile**
@@ -106,5 +106,10 @@ EXAMPLE: localhost:8000/api/profile/payment/view/1
 
 -**Update Profile**
 METHOD: PUT
-URI: address/api/profile/payment/update/{profile_id?}
+URI: address/api/profile/payment/update/{profile_id}
 EXAMPLE: address/api/profile/payment/update/1
+
+-**Delete Profile**
+METHOD: DELETE
+URI: address/api/profile/payment/delete/{profile_id}
+EXAMPLE: address/api/profile/payment/delete/1
