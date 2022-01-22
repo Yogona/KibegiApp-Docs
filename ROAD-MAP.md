@@ -1,3 +1,6 @@
+**Roles**(Done)
+-Retrieving
+
 **Authentication**(Done)
 -Registration(with email verification)
 -Login
@@ -9,16 +12,16 @@
 -Deleting 
 -Disabling
 
-**Payment Profile**
--Adding <-
+**Payment Profile**(Done)
+-Adding
 -Viewing 
 -Removing
 -Updating
 
 **Business Profile**
--Creation
+-Creating <-
 -Viewing
--Updation
+-Updating
 -Verification
 -Business ratings
 
