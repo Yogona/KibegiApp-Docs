@@ -18,11 +18,11 @@ All the URIs developed have auth and authorization scopes except some of them, t
 No authentication and authorization checks.
 
 -**Get roles**
-METHOD:get
+METHOD: GET
 URI:address/api/roles
 
 -**Register user**
-METHOD:post
+METHOD: POST
 URI:address/api/register
 BODY SAMPLE:{
     "username": "John",
@@ -40,14 +40,11 @@ BODY SAMPLE:{
 }
 
 -**Logout user**
-METHOD:post
+METHOD: POST
 URI:address/api/signout
-BODY SAMPLE:{
-    "user_id":"2"
-}
 
 -**User login**
-METHOD:post
+METHOD: POST
 URI:address/api/signin
 BODY SAMPLE:{
     "username": "Yogona",
@@ -57,14 +54,15 @@ BODY SAMPLE:{
 
 **User**
 -**View User**
-METHOD: get
-URI: address/api/profile/{id}
+METHOD: GET
+URI: address/api/profile/{id?}
+EXAMPLE: localhost:8000/api/profile/1
 
 -**Update User**
-METHOD: put
-URI: address/api/profile/user/update
+METHOD: PUT
+URI: address/api/profile/user/update/{user_id?}
+EXAMPLE: localhost:8000/api/profile/user/update/1
 BODY SAMPLE: {
-    "id": 1,
     "f_name": "Yona",
     "m_name": "Godwin",
     "l_name": "Yona",
@@ -76,18 +74,14 @@ BODY SAMPLE: {
 }
 
 -**Delete User**
-METHOD: delete
-URI: address/api/profile/user/delete
-BODY SAMPLE: {
-    "user_id": "1"
-}
+METHOD: DELETE
+URI: address/api/profile/user/delete/{user_id?}
+EXAMPLE: localhost:8000/api/profile/user/delete/1
 
 -**Disable User**
-METHOD: put 
-URI: address/api/profile/user/disable
-BODY SAMPLE: {
-    "user_id": "1"
-}
+METHOD: PATCH 
+URI: address/api/profile/user/disable/{user_id?}
+EXAMPLE: localhost:8000/api/profile/user/disable/1
 
 **Payment Profile**
 -**Add Profile**
@@ -107,4 +101,10 @@ URI: address/api/profile/payment/view
 
 -**View Profile**
 METHOD: GET
-URI: address/api/profile/payment/view/{id}
+URI: address/api/profile/payment/view/{profile_id}
+EXAMPLE: localhost:8000/api/profile/payment/view/1
+
+-**Update Profile**
+METHOD: PUT
+URI: address/api/profile/payment/update/{profile_id?}
+EXAMPLE: address/api/profile/payment/update/1
