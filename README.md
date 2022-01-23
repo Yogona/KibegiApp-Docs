@@ -113,3 +113,21 @@ EXAMPLE: address/api/profile/payment/update/1
 METHOD: DELETE
 URI: address/api/profile/payment/delete/{profile_id}
 EXAMPLE: address/api/profile/payment/delete/1
+
+**Business Profile**
+-**Add Profile**
+METHOD: POST
+URI:address/api/profile/business/add
+BODY SAMPLE: {
+    "tin_no": "123456789"
+}
+
+-**View Profile**
+METHOD: GET
+URI:address/api/profile/business/view/{id}
+EXAMPLE: localhost:8000/api/profile/business/view/1
+
+-**Updating**
+METHOD: PATCH
+URI: address/api/profile/business/update/{id}
+EXAMPLE: address/api/profile/business/update/1
