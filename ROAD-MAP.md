@@ -18,12 +18,12 @@
 -Removing
 -Updating
 
-**Business Profile**
--Creating <-
+**Business Profile**(Done)
+-Adding
 -Viewing
--Updating
--Verification
--Business ratings
+-Updating 
+-Verification (halted)
+-Business ratings (held)
 
 **Businesses**
 -Adding
